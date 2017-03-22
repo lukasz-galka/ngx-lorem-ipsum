@@ -9,7 +9,9 @@ Angular2 lorem ipsum generator
 
 # Service Methods
 - `get(count: number, paragraphsCount: number = 0): string` - gets sentences and paragraphs count and returns text
-- `getRandom(min: number, max: number, paragraphsCount: number = 0): string ` - gets min/max sentences count and paragraphs count and returns text 
+- `getRandom(min: number, max: number, paragraphsCount: number = 0): string ` - gets min/max for sentences count and paragraphs count and returns text 
+
+(if paragraphsCount is 0 returns plain text, if paragraphsCount is N returns html with N paragraphs <p>)
 
 # Service Usage
 ````ts
@@ -59,7 +61,7 @@ export class AppComponent {
 - `count` | Type: `number` - sentences count (ignored when min and max defined)
 - `min` | Type: `number` - min sentences count
 - `max` | Type: `number` - max sentences count
-- `paragraphsCount` | Type: `number` | Default value: `0` - paragraphs count
+- `paragraphsCount` | Type: `number` | Default value: `0` - paragraphs count (if 0 returns plain text, if N returns html with N paragraphs <p>)
 
 # Component Usage
 ````ts
