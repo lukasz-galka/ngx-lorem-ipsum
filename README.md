@@ -1,3 +1,6 @@
+[![npm version](https://img.shields.io/npm/v/ngx-lorem-ipsum.svg)](https://www.npmjs.com/package/ngx-lorem-ipsum)
+[![Downloads](https://img.shields.io/npm/dm/ngx-lorem-ipsum.svg)](https://www.npmjs.com/package/ngx-lorem-ipsum)
+
 # NgxLoremIpsum
 Angular2 lorem ipsum generator
 
@@ -61,7 +64,7 @@ export class AppComponent {
 - `count` | Type: `number` - sentences count (ignored when min and max defined)
 - `min` | Type: `number` - min sentences count
 - `max` | Type: `number` - max sentences count
-- `paragraphsCount` | Type: `number` | Default value: `0` - paragraphs count (if 0 returns plain text, if N returns html with N paragraphs <p>)
+- `paragraphsCount` | Type: `number` | Default value: `0` - paragraphs count (if 0 returns plain text, if N returns html with N paragraphs `<p>`)
 
 # Component Usage
 ````ts
