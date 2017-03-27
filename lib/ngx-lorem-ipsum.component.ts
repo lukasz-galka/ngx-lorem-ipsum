@@ -6,7 +6,7 @@ import { NgxLoremIpsumService } from './ngx-lorem-ipsum.service';
     selector: 'ngx-lorem-ipsum',
     template: ''
 })
-export class NgxLoremIpsumComponent {
+export class NgxLoremIpsumComponent implements OnChanges {
 
     @Input() count: number;
     @Input() min: number;
